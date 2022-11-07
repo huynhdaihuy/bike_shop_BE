@@ -3,7 +3,7 @@ const config = {
         port: process.env.PORT || 3000,
     },
     db: {
-        uri: process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/bikeshop',
+        uri: process.env.MONGODB_URI || 'mongodb+srv://huynhdaihuybikeshop:123456789Aa@cluster0.j7uou1m.mongodb.net/bikeshop',
     },
 };
 
